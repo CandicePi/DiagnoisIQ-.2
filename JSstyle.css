@@ -1,0 +1,29 @@
+.main-todo-container{
+    height: 80%;
+
+
+}
+
+#todos-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+#todos-list div{
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(128,128,128,0.3);
+    margin: 10px;
+    border-radius: 10px;
+    display:flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+width: 30px
+}
